@@ -1,0 +1,21 @@
+stages:
+  - pandoc
+
+variables:
+  DATE_FORMAT:
+
+pandoc-pdf:
+  stage: pandoc
+  tags:
+    - beacon
+  image:
+    name: pandoc/extra
+    entrypoint: ["/bin/sh", "-c"]
+  script:
+    - DATE_FORMAT=$(date +'%Y.%m.%d')
+    - mkdir public
+    - pandoc --template eisvogel --output=public/"${DATE_FORMAT}".pdf minutes/"${DATE_FORMAT}".md
+  artifacts:
+    paths:
+      - public
+    when: always
