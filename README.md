@@ -1,7 +1,7 @@
 # Comparative study of latencies and performance of the Modbus protocol, on virtual and real PLCs using the Hardware in the Loop methodology
 
 > **Note:** This repo is under development ⛏.
-> > It is maintained by [Oihan Pérez](https://github.com/jesusrugarcia), [Ekaitz Yerobi](eiriarteyer@ceit.es) and [Santiago Figueroa](https://github.com/sfl0r3nz05) as part of the project: *Comparative study of latencies and performance of the Modbus protocol, on virtual and real PLCs using the Hardware in the Loop methodology*.
+> > It is maintained by [Oihan Pérez](https://github.com/PerezdeArriluzeaOihan), [Ekaitz Yerobi](eiriarteyer@ceit.es) and [Santiago Figueroa](https://github.com/sfl0r3nz05) as part of the project: *Comparative study of latencies and performance of the Modbus protocol, on virtual and real PLCs using the Hardware in the Loop methodology*.
 
 ## Project Description
 
@@ -9,7 +9,8 @@ Device virtualization is a major focus of attention today. The open source proje
 
 ## Documentation
 
-1. [State of the Art (SOA)](https://docs.google.com/document/d/1RF-ZPgv6yreJHBob4-PP_BmIBN206ZZGRNzRnAIt6dQ)
+1. [State of the Art (SOA)](https://docs.google.com/document/d/15xwSIb0y4NIzIaMRUIs0t0eJ-V2CuZkw/edit?usp=sharing&ouid=112081455839953688829&rtpof=true&sd=true)
 2. [Diseño](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)
 3. [Implementación](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)
 4. [Results](https://docs.google.com/document/d/1T7W5oh48_8ETilarKdI6OKri8ixtPri2qEyzN97Ii58/edit?usp=sharing)
+5. [Guía básica configuración módulos PLC](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
