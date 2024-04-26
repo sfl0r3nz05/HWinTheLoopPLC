@@ -14,6 +14,14 @@ Device virtualization is a major focus of attention today. The open source proje
 3. [Implementación](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)                       Improving
 4. [Results]                    Coming soon
 5. [Guía básica configuración módulos PLC](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
-   1. [Guía actualizada para configuración de módulos del PLC](./real_plc/Como_Conectar_a_CX.pdf)
+   5.1. [Guía actualizada para configuración de módulos del PLC](./real_plc/Como_Conectar_a_CX.pdf)
 6. [Exploits de Omron(PLC CJM2-CPU31/CX-Programmer)](./exploits/Exploits.md)
-   1. [Documentación detallada de Exploits](./exploits/EXPLOITS_01.pdf)
+   6.1. [Documentación detallada de Exploits](./exploits/EXPLOITS_01.pdf)
+
+## To Do
+
+1. Completar el flujo clientes Modbus - PLC Real - Interfaz - WWTP.
+2. Utilizar los exploits analizados en [6](./exploits/Exploits.md) y [6.1](./exploits/EXPLOITS_01.pdf) sobre el flujo creado.
+3. Integrar el servidor GNS3 con la infraestructura virtualizada actual.
+4. Hacer merge entre 5 y 5.1.
+5. Hacer merge entre 6 y 6.1.
