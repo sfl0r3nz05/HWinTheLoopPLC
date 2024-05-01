@@ -16,7 +16,7 @@ Device virtualization is a major focus of attention today. The open source proje
 5. [Guía básica configuración módulos PLC](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
 6. [Guía actualizada para configuración de módulos del PLC](./real_plc/Como_Conectar_a_CX.pdf)
 7. [Exploits de Omron(PLC CJM2-CPU31/CX-Programmer)](./exploits/Exploits.md)
-7. [Documentación detallada de Exploits](./exploits/EXPLOITS_01.pdf)
+7. [Documentación detallada de Exploits](./exploits/Documentación_detallada_de_Exploits_y_Exploits_de_Omron.pdf)
 
 ## To Do
 
