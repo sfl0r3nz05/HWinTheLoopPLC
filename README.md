@@ -13,8 +13,8 @@ Device virtualization is a major focus of attention today. The open source proje
 2. [Design](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)                       Improving
 3. [Implementation](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)                       Improving
 4. [Results]                    Coming soon
-5. [Basic PLC module configuration guide](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
-6. [Updated PLC module configuration guide](./real_plc/Como_Conectar_a_CX.pdf)
+5. [Hardware PLC module configuration guide](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
+6. [Software PLC module configuration guide](./real_plc/Como_Conectar_a_CX.pdf)
 7. [Integration with Hardware In The Loop stage](./hwintheloop/Resumen_del_Proyecto_Hardware_in_the_Loop.pdf)
 8. [Omron Exploit list(PLC CJM2-CPU31/CX-Programmer)](./exploits/Exploits.md)
 9. [Detailed Exploit Documentation](./exploits/Documentacion_exploits.pdf)
