@@ -10,14 +10,14 @@ Device virtualization is a major focus of attention today. The open source proje
 ## Documentation
 
 1. [State of the Art (SOA)](https://docs.google.com/document/d/15xwSIb0y4NIzIaMRUIs0t0eJ-V2CuZkw/edit?usp=sharing&ouid=112081455839953688829&rtpof=true&sd=true)                        Improving
-2. [Diseño](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)                       Improving
-3. [Implementación](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)                       Improving
+2. [Design](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)                       Improving
+3. [Implementation](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)                       Improving
 4. [Results]                    Coming soon
-5. [Guía básica configuración módulos PLC](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
-6. [Guía actualizada para configuración de módulos del PLC](./real_plc/Como_Conectar_a_CX.pdf)
-7. [Integración con etapa de Hardware In The Loop](./hwintheloop/Resumen_del_Proyecto_Hardware_in_the_Loop.pdf)
-8. [Exploits de Omron(PLC CJM2-CPU31/CX-Programmer)](./exploits/Exploits.md)
-9. [Documentación detallada de Exploits](./exploits/Documentacion_exploits.pdf)
+5. [Basic PLC module configuration guide](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
+6. [Updated PLC module configuration guide](./real_plc/Como_Conectar_a_CX.pdf)
+7. [Integration with Hardware In The Loop stage](./hwintheloop/Resumen_del_Proyecto_Hardware_in_the_Loop.pdf)
+8. [Omron Exploit list(PLC CJM2-CPU31/CX-Programmer)](./exploits/Exploits.md)
+9. [Detailed Exploit Documentation](./exploits/Documentacion_exploits.pdf)
 
 ## To Do
 
