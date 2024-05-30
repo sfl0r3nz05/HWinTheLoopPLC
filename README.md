@@ -21,8 +21,5 @@ Device virtualization is a major focus of attention today. The open source proje
 
 ## To Do
 
-1. Completar el flujo clientes Modbus - PLC Real - Interfaz - WWTP.
-2. Utilizar los exploits analizados en [6](./exploits/Exploits.md) y [6.1](./exploits/EXPLOITS_01.pdf) sobre el flujo creado.
-3. Integrar el servidor GNS3 con la infraestructura virtualizada actual.
-4. Hacer merge entre 5 y 5.1.
-5. Hacer merge entre 6 y 6.1.
+1. Complete Modbus Client Flow - Real PLC - Interface - WWTP.
+2. Integrate GNS3 server with current virtualized infrastructure.
