@@ -1,0 +1,87 @@
+version: '3'
+
+networks:
+  ics:
+    name: ics
+    driver: bridge
+    ipam:
+      config: 
+        - subnet: 192.168.192.0/24
+
+services:
+
+  interface:
+      image: python:3.10-alpine
+      container_name: interface
+      command: sh -c "pip install fabric pymodbustcp && cd /Interface && fab run-concurrent && tail -f /dev/null" #Ejecuta el archivo .cpp con la ayuda del .cfg
+      volumes: 
+        - ./pyinterface:/Interface
+      restart: unless-stopped
+      ports:
+        - "5020:5020"
+      networks:
+        ics:
+          ipv4_address: 192.168.192.2
+
+  wwtpmodel: #Contiene el programa de Matlab/Simulink
+    image: sflorenz05/matlab_simulink:v0.3
+    container_name: wwtpmodel
+    shm_size: 512M
+    ports:
+      - "5901:5901"
+      - "6080:6080"
+    command: -vnc
+    volumes:
+      - ./wwtpmodelmodbus:/home/matlab/Documents/MATLAB/wwtp
+    restart: unless-stopped
+    networks:
+      ics:
+        ipv4_address: 192.168.192.4
+
+  client1:
+    image: oihan27/tcpclient:performance #Ejecuta performance.py
+    container_name: client1
+    build: 
+      context: ./Clients
+    restart: unless-stopped
+    networks:
+      ics:
+        ipv4_address: 192.168.192.5
+    environment:
+      - AUTO_SERVER_HOST=10.63.28.53
+
+  client2:
+    image: oihan27/tcpclient:performance #Ejecuta performance.py
+    container_name: client2
+    build: 
+      context: ./Clients
+    restart: unless-stopped
+    networks:
+      ics:
+        ipv4_address: 192.168.192.6
+    environment:
+      - AUTO_SERVER_HOST=10.63.28.53
+
+  client3:
+    image: oihan27/tcpclient:performance #Ejecuta performance.py
+    container_name: client3
+    build: 
+      context: ./Clients
+    restart: unless-stopped
+    networks:
+      ics:
+        ipv4_address: 192.168.192.7
+    environment:
+      - AUTO_SERVER_HOST=10.63.28.53
+
+  client4:
+    image: oihan27/tcpclient:performance #Ejecuta performance.py
+    container_name: client4
+    build: 
+      context: ./Clients
+    restart: unless-stopped
+    networks:
+      ics:
+        ipv4_address: 192.168.192.8
+    environment:
+      - AUTO_SERVER_HOST=10.63.28.53
