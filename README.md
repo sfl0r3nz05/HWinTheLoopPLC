@@ -1,7 +1,6 @@
 # Comparative study of latencies and performance of the Modbus protocol, on virtual and real PLCs using the Hardware in the Loop methodology
 
 > **Note:** This repo is under development ⛏.
-> > It is maintained by [Oihan Pérez](https://github.com/PerezdeArriluzeaOihan), [Ekaitz Yerobi](eiriarteyer@ceit.es) and [Santiago Figueroa](https://github.com/sfl0r3nz05) as part of the project: *Comparative study of latencies and performance of the Modbus protocol, on virtual and real PLCs using the Hardware in the Loop methodology*.
 
 ## Project Description
 
@@ -10,6 +9,12 @@ Device virtualization is a major focus of attention today. The open source proje
 ## General Architecture
 
 ![](./documentation/media/arch.png)
+
+1. Clients to evaluate performance
+2. PLC: OpenPLC, RealPLC
+3. Interface: OpenPLC, RealPLC
+4. Hardware In the Loop based on WWTP
+5. Security
 
 ## Documentation
 
