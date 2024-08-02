@@ -8,9 +8,9 @@ Device virtualization is a major focus of attention today. The open source proje
 
 ## General Architecture
 
-![](./documentation/media/RealPLC_WWTP_Attacker_2024.08.02.png)
-
-![](./documentation/media/OpenPLC_WWTP_Attacker_2024.08.02.png)
+|   |   |
+|---|---|
+|![](./documentation/media/RealPLC_WWTP_Attacker_2024.08.02.png) | ![](./documentation/media/OpenPLC_WWTP_Attacker_2024.08.02.png) |
 
 1. Clients to evaluate performance
 2. PLC: OpenPLC, RealPLC
