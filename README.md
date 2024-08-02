@@ -8,22 +8,24 @@ Device virtualization is a major focus of attention today. The open source proje
 
 ## General Architecture
 
-|   |   |
+| Real PLC  |  OpenPLC |
 |---|---|
 |![](./documentation/media/RealPLC_WWTP_Attacker_2024.08.02.png) | ![](./documentation/media/OpenPLC_WWTP_Attacker_2024.08.02.png) |
 
-1. Clients to evaluate performance
-2. PLC: OpenPLC, RealPLC
-3. Interface: OpenPLC, RealPLC
-4. Hardware In the Loop based on WWTP
-5. Security
+- Architecture components:
+
+  1. Clients to evaluate performance
+  2. PLC: OpenPLC, RealPLC
+  3. Interface: OpenPLC, RealPLC
+  4. Hardware In the Loop (HIL) based on WWTP
+  5. Security analysis
 
 ## Documentation
 
 1. [State of the Art (SOA)](https://docs.google.com/document/d/15xwSIb0y4NIzIaMRUIs0t0eJ-V2CuZkw/edit?usp=sharing&ouid=112081455839953688829&rtpof=true&sd=true)                        Improving
 2. [Design](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)                       Improving
 3. [Implementation](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)                       Improving
-4. [Results]                    Coming soon
+4. [Results] Coming soon
 5. [Hardware PLC module configuration guide](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
 6. [Software PLC module configuration guide](./real_plc/Como_Conectar_a_CX.pdf)
 7. [Integration with Hardware In The Loop stage](./hwintheloop/Resumen_del_Proyecto_Hardware_in_the_Loop.pdf)
@@ -32,5 +34,4 @@ Device virtualization is a major focus of attention today. The open source proje
 
 ## To Do
 
-1. Complete Modbus Client Flow - Real PLC - Interface - WWTP.
-2. Integrate GNS3 server with current virtualized infrastructure.
+1. Integrate GNS3 server with current virtualized infrastructure.
