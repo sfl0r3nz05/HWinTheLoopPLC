@@ -8,11 +8,11 @@ Device virtualization is a major focus of attention today. The open source proje
 
 ## General Architecture
 
-| Real PLC  |  OpenPLC |
+| Architecture containing Real PLC  |  Architecture containing OpenPLC |
 |---|---|
 |![](./documentation/media/RealPLC_WWTP_Attacker_2024.08.02.png) | ![](./documentation/media/OpenPLC_WWTP_Attacker_2024.08.02.png) |
 
-- Architecture components:
+- Architecture components/procedures:
 
   1. Clients to evaluate performance
   2. PLC: OpenPLC, RealPLC
@@ -22,15 +22,18 @@ Device virtualization is a major focus of attention today. The open source proje
 
 ## Documentation
 
-1. [State of the Art (SOA)](https://docs.google.com/document/d/15xwSIb0y4NIzIaMRUIs0t0eJ-V2CuZkw/edit?usp=sharing&ouid=112081455839953688829&rtpof=true&sd=true)                        Improving
-2. [Design](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)                       Improving
-3. [Implementation](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)                       Improving
+1. [Background of components](https://docs.google.com/document/d/15xwSIb0y4NIzIaMRUIs0t0eJ-V2CuZkw/edit?usp=sharing&ouid=112081455839953688829&rtpof=true&sd=true)
+   1. [Hardware PLC module configuration guide](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
+   2. [Software PLC module configuration guide](./real_plc/Como_Conectar_a_CX.pdf)
+   3. [Integration with Hardware In The Loop stage](./hwintheloop/Resumen_del_Proyecto_Hardware_in_the_Loop.pdf)
+2. [Real PLC and OpenPLC architecture design and experiment design](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)
+3. [Real PLC and OpenPLC architecture implementation](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)
 4. [Results] Coming soon
-5. [Hardware PLC module configuration guide](https://docs.google.com/document/d/1xB3YLqI5UiYcW1s1Sb0ApSWaoBoxyXvQtbazRlI4LEY/edit?usp=sharing)
-6. [Software PLC module configuration guide](./real_plc/Como_Conectar_a_CX.pdf)
-7. [Integration with Hardware In The Loop stage](./hwintheloop/Resumen_del_Proyecto_Hardware_in_the_Loop.pdf)
-8. [Omron Exploit list(PLC CJM2-CPU31/CX-Programmer)](./exploits/Exploits.md)
-9. [Detailed Exploit Documentation](./exploits/Documentacion_exploits.pdf)
+   1. Interface designed for OpenPLC
+   2. Interface designed for RealPLC
+5. Security Analysis
+   1. [Omron Exploit list(PLC CJM2-CPU31/CX-Programmer)](./exploits/Exploits.md)
+   2. [Detailed Exploit Documentation](./exploits/Documentacion_exploits.pdf)
 
 ## To Do
 
