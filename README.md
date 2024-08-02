@@ -28,6 +28,7 @@ Device virtualization is a major focus of attention today. The open source proje
    3. [Integration with Hardware In The Loop stage](./hwintheloop/Resumen_del_Proyecto_Hardware_in_the_Loop.pdf)
 2. [Real PLC and OpenPLC architecture design and experiment design](https://docs.google.com/document/d/16R5RU5ItskVm6NDPMELxj9diJbljJUccMOeNoo6CXrY/edit?usp=sharing)
 3. [Real PLC and OpenPLC architecture implementation](https://docs.google.com/document/d/10oSrLKRrvdAGgbvsW2g0rURjR7ssxkvX5nWHqeNMi0o/edit?usp=sharing)
+   1. Real PLC interface: [document](./real_plc/interface/Research_Final_Paper.pdf), [sildes](./real_plc/interface/Research_Final_Presentation.pdf)
 4. [Results] Coming soon
    1. Interface designed for OpenPLC
    2. Interface designed for RealPLC
