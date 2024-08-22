@@ -46,29 +46,3 @@ services:
     networks:
       ics:
         ipv4_address: 192.168.192.4
-
-  openplc: #Contiene el OpenPLC runtime
-    image: sflorenz05/open-plc:v0.1
-    container_name: openplc
-    ports:
-      - "502:502"
-      - "8080:8080"
-    command: -privileged
-    restart: unless-stopped
-    networks:
-      ics:
-        ipv4_address: 192.168.192.3
-
-  clientperf1:
-    image: oihan27/tcpclient:performance #Ejecuta performance.py
-    container_name: clientperf1
-    build: 
-      context: ./Clients
-    restart: unless-stopped
-    depends_on:
-      - openplc
-    networks:
-      ics:
-        ipv4_address: 192.168.192.5
-    environment:
-      - AUTO_SERVER_HOST=openplc
